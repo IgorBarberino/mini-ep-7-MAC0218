@@ -2,7 +2,8 @@ package domain
 
 import domain.criterios.Basico
 import domain.criterios.CriterioDeAprovacao
-
+import domain.Boletim
+import domain.BoletimFechado
 
 internal class AnalisadorDeAprovacao {
 
