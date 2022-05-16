@@ -10,7 +10,7 @@ internal class AnalisadorDeAprovacao {
     private lateinit var criterio: CriterioDeAprovacao
 
     fun defineCriterio(criterio: CriterioDeAprovacao) {
-        criterio_atual = criterio
+        criterio = criterio
     }
     
     fun fechaBoletim(boletim: Boletim) BoletimFechado {
