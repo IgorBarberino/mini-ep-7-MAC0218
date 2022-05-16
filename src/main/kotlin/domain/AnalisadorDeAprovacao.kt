@@ -13,7 +13,7 @@ internal class AnalisadorDeAprovacao {
         criterio_atual = criterio
     }
     
-    fun fechaBoletin(boletim: Boletim) BoletimFechado {
+    fun fechaBoletim(boletim: Boletim) BoletimFechado {
 
         return BoletimFechado(mediaEPs=boletim.mediaEPs, mediaMiniEPs=boletim.mediaMiniEPs, criterio.mediaFinal(boletim), criterio.estaAprovado(boletim))
 }
